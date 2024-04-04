@@ -41,7 +41,6 @@ jobs:
           context: .
           file: ./Dockerfile
           platforms: linux/amd64,linux/arm64
-          target: api
           push: true
           tags: |
-            ghcr.io/senergy-platform/ray:prod-${{ steps.tag_version.outputs.new_tag }}
+            ghcr.io/senergy-platform/ray:${{ steps.tag_version.outputs.new_tag }}
