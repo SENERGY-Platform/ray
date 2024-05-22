@@ -1,4 +1,0 @@
-mlflow==2.5.0
-#darts==0.24.0
-cryptography==38.0.4
-git+https://github.com/SENERGY-Platform/timeseries-toolbox@v2.0.13
