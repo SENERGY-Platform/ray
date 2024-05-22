@@ -1,8 +1,6 @@
 import os 
 
-from toolbox.load_shifting.run import run_load_shifting
+from toolbox.run import run
 
 if __name__ == '__main__':
-    task = os.environ['TASK']
-    if task == "load_shifting":
-        run_load_shifting()
+    run()
